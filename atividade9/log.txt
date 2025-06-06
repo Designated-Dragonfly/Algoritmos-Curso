@@ -1,0 +1,5 @@
+Valor maximo: 5
+Valor minimo: 1
+Valor esperado: 3
+Valor aleatorio: 2
+Resultado: não sorteado

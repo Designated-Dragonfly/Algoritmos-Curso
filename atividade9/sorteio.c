@@ -27,5 +27,12 @@ int main(int argc, char const *argv[]) {
     fprintf(log, "Valor esperado: %d\n", esperado);
     fprintf(log, "Valor aleatorio: %d\n", aleatorio);
 
+    if (esperado == aleatorio) {
+        fprintf(log, "Resultado: sorteado");
+    } else {
+        fprintf(log, "Resultado: não sorteado");
+    }
+    
+
     return 0;
 }
